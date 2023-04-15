@@ -8,7 +8,6 @@ $dbname = "figuras";
 // Crear una conexión a la base de datos
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
-// Verificar si la conexión fue exitosa2
 if (!$conn) {
     die("La conexión falló: " . mysqli_connect_error());
 }
